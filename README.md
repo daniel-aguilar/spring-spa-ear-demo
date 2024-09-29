@@ -23,17 +23,20 @@ Requirements:
 * Node 20
 
 To create an EAR run:
-
-`mvn package`
+```
+mvn package
+```
 
 To run the spring boot app:
-
-`mvn jetty:run`
+```
+mvn jetty:run
+```
 
 To run the SPA app (Vue.js), install its dependencies (`npm i`) and
 then:
-
-`npm run dev`
+```
+npm run dev
+```
 
 Visit http://localhost:8080/Demo/ to view the running web
 application. You can try navigating to an undefined route such as
