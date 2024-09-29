@@ -1,0 +1,9 @@
+target/
+node_modules/
+*.log
+
+# frontend-maven-plugin
+node/
+
+# Compiled Vue sources
+**/webapp/spa/
